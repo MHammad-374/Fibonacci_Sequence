@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* Style for the scrollbar container */
+::-webkit-scrollbar {
+  width: 10px; /* Width for vertical scrollbar */
+  height: 10px; /* Height for horizontal scrollbar */
+}
+
+/* Style for the scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background: #1E074B; /* Light gray background */
+  border-radius: 10px;
+}
+
+/* Style for the scrollbar thumb (handle) */
+::-webkit-scrollbar-thumb {
+  background: #62099e41; /* Gray color for the thumb */
+  border-radius: 10px;
+}
+
+/* Style for the scrollbar thumb when hovered */
+::-webkit-scrollbar-thumb:hover {
+  background: #23003a; /* Darker gray when hovered */
+}
+
+/* Optional: Style for the scrollbar corner (where horizontal and vertical scrollbars meet) */
+::-webkit-scrollbar-corner {
+  background: #f1f1f1;
+}
